@@ -1,5 +1,7 @@
+package BackTraking;
+
 //PROBLEM 15650 - "N과 M (2)"
-public class BackTracking2 {
+public class BackTracking3 {
     static int N, M;
     static int[] selected, isUsed;
 

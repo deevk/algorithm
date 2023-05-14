@@ -1,3 +1,5 @@
+package BackTraking;
+
 //PROBLEM 15651 - "N과 M (3)"
 public class BackTracking1 {
      static int N, M;
@@ -20,7 +22,7 @@ public class BackTracking1 {
     public static void main(String[] args) {
         // N =
         // M =
-        // selected = new int[N+1];
+        // selected = new int[M+1]; ; <-- M개를 선택하는 것
 
         rec_func(1);
     }
